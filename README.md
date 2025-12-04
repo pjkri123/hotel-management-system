@@ -17,6 +17,31 @@ The application models real-world relationships between Restaurants, Menu Items,
    - One-to-Many: `Customer` → `Order`
    - One-to-Many: `Order` → `OrderItem`
 - Full CRUD support for Restaurants, Menu Items, Customers, Orders, and Reviews
+- Order lifecycle: `PLACED` → `CONFIRMED` → `PREPARING` → `OUT_FOR_DELIVERY` → `DELIVERED`/`CANCELLED`
 - Clean layered architecture (`Controller → Service → Repository`)
 - JPA & Hibernate for ORM and database interaction
 - Uses annotations like `@RestController`, `@Entity`, `@OneToMany`, etc.
+
+---
+
+## 📦 Technologies Used
+- Java 17+
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- Maven (or Gradle)
+- Relational Database (e.g., MySQL or H2)
+
+---
+
+## 🛠 Tech Stack Used
+- IDE:Intellij IDEA
+- Framework: Spring Boot
+- Database: H2 (In-Memory Database for testing)
+- API Testing: Postman
+- Build Tool: Maven
+- Version Control: Git & GitHub
+
+---
+
+
